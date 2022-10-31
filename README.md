@@ -6,3 +6,7 @@ It also informs you about current disk usage and system uptime. It's built on to
 # Support
 
 Currently only Windows devices are supported (not tested on Linux devices)
+
+# Preview image
+
+![app_preview](https://github.com/Kammelleon/DjangoResourcesMonitor/blob/main/preview_images/preview.png)
