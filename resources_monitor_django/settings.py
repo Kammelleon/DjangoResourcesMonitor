@@ -79,8 +79,6 @@ TEMPLATE_DIRS = (
 WSGI_APPLICATION = 'resources_monitor_django.wsgi.application'
 ASGI_APPLICATION = 'resources_monitor_django.asgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
     'default': {
@@ -88,7 +86,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     },
 }
-#https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
+
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
@@ -128,9 +126,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
